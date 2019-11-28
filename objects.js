@@ -5,7 +5,7 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, artistName, songTitle){
-  return playlist.artistName = songTitle
+  return playlist.assing({}, playlist, {[artistName]: songTitle})
 }
 
 function removeFromPlaylist(playlist, artistName){
