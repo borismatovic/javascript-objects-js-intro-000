@@ -3,3 +3,7 @@ var playlist = {
   jamiroquai: "Lightstar",
   suicidalTendencies: "Medicine man"
 }
+
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist.artistName = songTitle  
+}
